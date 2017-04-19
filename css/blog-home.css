@@ -1,0 +1,134 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+body {
+  padding-top: 70px;
+}
+
+footer {
+    margin: 50px 0;
+}
+li {
+  list-style: none;
+}
+/*Typography*/
+.text-red {
+  color: red;
+}
+
+/*Bootstrap Menu Logo*/
+.navbar-brand {
+    padding: 8px 5px;
+  }
+
+.navbar-brand img {
+  padding: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-brand img:hover {
+padding: 2px;
+background-color: aliceblue;
+border-radius: 90px;
+border: 1px solid red;
+}
+
+  .navbar-brand .blog-name {
+    padding: 7px;
+    display: block;
+  }
+
+.post-1 {
+  background-color: #101122;
+  padding: 10px;
+  color: aliceblue;
+}
+.post-1 h2 a {
+  color: #b6ff00;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.post-1 .lead a {
+  color: #1ae0b4;
+  font-size: 30px;
+}
+
+/*Post Image*/
+.wp-post-image {
+  margin: auto;
+}
+
+/*Pagination*/
+ .pagination {
+   display: inline;
+   text-align: center;
+ }
+ .pagination h2 {
+   display: none;
+ }
+
+ .pagination .page-numbers {
+ }
+
+ .pagination .prev {
+   padding: 5px 14px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 15px;
+   margin-bottom: 5px;
+   float: left;
+ }
+
+ .pagination .next {
+   padding: 5px 14px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 15px;
+   margin-bottom: 5px;
+   float: right;
+}
+
+/*Prev Next Link*/
+.prev-link{
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.next-link{
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+/*Parallax*/
+.parallax-window {
+   min-height: 400px;
+   background: rgba(9, 22, 95, 0.77);
+   color: blanchedalmond;
+   text-align: center;
+   margin-top: -70px;
+}
+
+.parallax-window h2 {
+font-size: 40px;
+color: #60ff00;
+padding-top: 140px;
+}
+
+/*Page Header*/
+.page-header-img {
+  padding-top: 140px;
+  color: #f57f00;
+  border-bottom: 0px;
+}
